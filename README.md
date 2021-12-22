@@ -5,10 +5,14 @@ This is a Next.js project bootstrapped with [`create-plasmic-app`](https://www.n
 First, run the development server:
 
 ```bash
+sudo npm install -g yarn
+yarn
 yarn dev
 ```
 
-Open your browser to see the result.
+Open your browser to see the result at:
+
+http://localhost:3000
 
 You can start editing your project in Plasmic Studio. The page auto-updates as you edit the project.
 
