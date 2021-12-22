@@ -234,50 +234,81 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@plasmicapp/host@0.0.32":
-  version "0.0.32"
-  resolved "https://registry.yarnpkg.com/@plasmicapp/host/-/host-0.0.32.tgz#234f1e14c1de5702ae4ab012f9884691e180db5a"
-  integrity sha512-mXdFYEDnJnMwH/Q7yrGQ2tWDQl+d4Stkd0flI3Mqy9a++pl2Hwj7S7Mr6OPj1k4ohG9nCJZNUJNalxROTsfknA==
+"@plasmicapp/host@0.0.46":
+  version "0.0.46"
+  resolved "https://registry.yarnpkg.com/@plasmicapp/host/-/host-0.0.46.tgz#279437adca0c2431b5af4abbb844c33efbf43d3d"
+  integrity sha512-F9L+HK5L6Q6JfqGjNoeKAaG9BC0lo+8zRBFZCRVe5V57gdrsflwkQQZwnu7jf2kdzCnoB3Jl3aMFOfNFPiTfxA==
   dependencies:
-    "@plasmicapp/preamble" "0.0.17"
+    "@plasmicapp/preamble" "0.0.30"
     window-or-global "^1.0.1"
 
-"@plasmicapp/loader-core@1.0.23":
-  version "1.0.23"
-  resolved "https://registry.yarnpkg.com/@plasmicapp/loader-core/-/loader-core-1.0.23.tgz#db80fd069678018a955852b0d4def98291f05fe3"
-  integrity sha512-THN5vH3247psHudbXIFEiclgUsXxcrGs7WzBurqsyTph07laVgWdHzwFy3lfjnKZxtbPNSptyV5qjSF80EsAkw==
+"@plasmicapp/host@^0.0.44":
+  version "0.0.44"
+  resolved "https://registry.yarnpkg.com/@plasmicapp/host/-/host-0.0.44.tgz#80d7993524c8c6e2a83a77b33eb0845a54a291ed"
+  integrity sha512-TQU1AFvuJrUTL5/hJ0eoHfZu3E8exYR7lLNHJrsDQY+mohVaOT0STzZdmksZvRH02978vtL6/bip6b65QiWjEQ==
+  dependencies:
+    "@plasmicapp/preamble" "0.0.28"
+    window-or-global "^1.0.1"
+
+"@plasmicapp/loader-core@1.0.36":
+  version "1.0.36"
+  resolved "https://registry.yarnpkg.com/@plasmicapp/loader-core/-/loader-core-1.0.36.tgz#bf68c2daef77c8200946829b72ccbce6475efc5b"
+  integrity sha512-/YpTnhBpTgXQWWhAbUulRPWSDLy/pdveBxZ5/WAa8UmOP5FtuCyl0wQxWqCF2kea6q4YZzjR8LpnQzKhnAsQ3w==
   dependencies:
     isomorphic-unfetch "^3.1.0"
 
-"@plasmicapp/loader-nextjs@^1.0.33":
-  version "1.0.33"
-  resolved "https://registry.yarnpkg.com/@plasmicapp/loader-nextjs/-/loader-nextjs-1.0.33.tgz#dc0774e5ab1dc82888b7c38de01bb77fb5bfc806"
-  integrity sha512-y47lxFeqAumOmq1UxIaAvB5lYrKj1ev7IjIU06iYN2xa0BSu0krNCyDvX2U5rMwghSFAUW2G3d0poZ9nDEtsrQ==
+"@plasmicapp/loader-nextjs@^1.0.47":
+  version "1.0.47"
+  resolved "https://registry.yarnpkg.com/@plasmicapp/loader-nextjs/-/loader-nextjs-1.0.47.tgz#582f4c96870263e5d27ce979268357c02c03fb46"
+  integrity sha512-lzWscXAjlEODaklokw/9o8DDSU3r2FKDb19kQZGOqx0NcTB5qAt7ayzDaeMPh2A8xWzVx4C1buVPubCns296jQ==
   dependencies:
-    "@plasmicapp/loader-core" "1.0.23"
-    "@plasmicapp/loader-react" "1.0.32"
-    "@plasmicapp/watcher" "1.0.19"
+    "@plasmicapp/loader-core" "1.0.36"
+    "@plasmicapp/loader-react" "1.0.46"
+    "@plasmicapp/watcher" "1.0.32"
 
-"@plasmicapp/loader-react@1.0.32":
-  version "1.0.32"
-  resolved "https://registry.yarnpkg.com/@plasmicapp/loader-react/-/loader-react-1.0.32.tgz#65d04dfc8277eeef42ffb01ea776eaed47aafd0d"
-  integrity sha512-LLwOTpyaQ+htvEK/zWXk3AH0/1QTZWYX5o1np29Db0k/tATW7wCLeHhXyxNcYfnPdn4liJoY/iRFEi4Bvmuw2g==
+"@plasmicapp/loader-react@1.0.46":
+  version "1.0.46"
+  resolved "https://registry.yarnpkg.com/@plasmicapp/loader-react/-/loader-react-1.0.46.tgz#5c234241ab77b41a527f682617865ff53f17e375"
+  integrity sha512-yrUjv3ammtwTJRPcJibaPJkzEmvxqyFjBt8ewLpduKCQw/4t7lB/rKqMml7PXpD3m1mUC2IhquYN2zAl0ipofQ==
   dependencies:
-    "@plasmicapp/host" "0.0.32"
-    "@plasmicapp/loader-core" "1.0.23"
+    "@plasmicapp/host" "0.0.46"
+    "@plasmicapp/loader-core" "1.0.36"
+    "@plasmicapp/query" "0.1.4"
     pascalcase "^1.0.0"
+    react-is "^17.0.2"
+    react-ssr-prepass "^1.4.0"
 
-"@plasmicapp/preamble@0.0.17":
-  version "0.0.17"
-  resolved "https://registry.yarnpkg.com/@plasmicapp/preamble/-/preamble-0.0.17.tgz#1216ed3867168b00f40ba301c5cb77fffa92df47"
-  integrity sha512-MOJaXP7/2NJU27qxzlnczQi9V/wSYp/H4TcYC3FRWPcqq4mWYjk3+hynJqPjKUosWnsAqEVBtFCaP/nG5ZURDg==
+"@plasmicapp/preamble@0.0.28":
+  version "0.0.28"
+  resolved "https://registry.yarnpkg.com/@plasmicapp/preamble/-/preamble-0.0.28.tgz#976e901bca92b76dd6e7046c8a9afaa88e0396bf"
+  integrity sha512-UD51pNEO5mMG61qyzYPbekxLc3ZenBn89sSE/0fi19JW7B5w2cy9ovqWlAx8emu5N8fvm0VEiBb5nDv35b8ifQ==
 
-"@plasmicapp/watcher@1.0.19":
-  version "1.0.19"
-  resolved "https://registry.yarnpkg.com/@plasmicapp/watcher/-/watcher-1.0.19.tgz#861c97a2c694c4de5a7f8c58af69c041a62af0b7"
-  integrity sha512-j1/vUMe30DQNWB9fY1LtBKw92Ab0npiaWLTHNsp5DsOF88wZvXKQhGDSeWDqOHjIOuPQx1ipHCq0odEAbhJrIw==
+"@plasmicapp/preamble@0.0.30":
+  version "0.0.30"
+  resolved "https://registry.yarnpkg.com/@plasmicapp/preamble/-/preamble-0.0.30.tgz#f973f69c823566dc4312526fdc3f178d8aeb01ed"
+  integrity sha512-oB8aFCQGSNY5fFLXqnSis/mWPtG3gtXJ/JZHxJt5V6Wtj7RncJw28YcimCa5t9kGz7lRt+49TlELux/ewmFIjA==
+
+"@plasmicapp/query@0.1.4":
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/@plasmicapp/query/-/query-0.1.4.tgz#37faf18c9a94023a9b7ff5c5b1b5c0ed66cc5459"
+  integrity sha512-SaXmkZlF4aPT/FimJexwFUd3mHvd7Sh+AyBtTRa3eEOABpD0QJhotvWJQklO5clUCXv+it8qIqqRUR8uIirXrQ==
+  dependencies:
+    react-ssr-prepass "^1.4.0"
+
+"@plasmicapp/watcher@1.0.32":
+  version "1.0.32"
+  resolved "https://registry.yarnpkg.com/@plasmicapp/watcher/-/watcher-1.0.32.tgz#6af5b0448f7d49eda71499b5926018df24cf2fec"
+  integrity sha512-u2Ygc8zXZraM/Mpy0DwQXIdjDVrLVfvDmH2RadfNQ4iDl7L7hD9BwfkMxLwNQkL1Sd6A1C3sWnVEKNHkXHWk5w==
   dependencies:
     socket.io-client "^4.1.2"
+
+"@plasmicpkgs/react-youtube@^7.13.5":
+  version "7.13.5"
+  resolved "https://registry.yarnpkg.com/@plasmicpkgs/react-youtube/-/react-youtube-7.13.5.tgz#bc0671f23bd6b33b87cdc1cf4de95a36ec53ffac"
+  integrity sha512-PHtGyAO8o/dLJ343OUfxTcuivEKYGQb5NzkCo/m3Q1Nj2UE7wxV3vBDaFMop3cPI+XPElbo44h/qZnzJ8srJhA==
+  dependencies:
+    "@plasmicapp/host" "^0.0.44"
+    react-youtube "^7.13.0"
 
 "@rushstack/eslint-patch@^1.0.6":
   version "1.0.9"
@@ -2526,7 +2557,7 @@ react-dom@17.0.2:
     object-assign "^4.1.1"
     scheduler "^0.20.2"
 
-react-is@17.0.2:
+react-is@17.0.2, react-is@^17.0.2:
   version "17.0.2"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-17.0.2.tgz#e691d4a8e9c789365655539ab372762b0efb54f0"
   integrity sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w==
@@ -2551,7 +2582,12 @@ react-server-dom-webpack@0.0.0-experimental-3c4c1c470-20211021:
     neo-async "^2.6.1"
     object-assign "^4.1.1"
 
-react-youtube@^7.13.1:
+react-ssr-prepass@^1.4.0:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/react-ssr-prepass/-/react-ssr-prepass-1.4.0.tgz#33a3db19414f0f8f9f3f781c88f760ae366b4f51"
+  integrity sha512-0SzdmiQUtHvhxCabHg9BI/pkJfijGkQ0jQL6fC4YFy7idaDOuaiQLsajIkkNxffFXtJFHIWFITlve2WB88e0Jw==
+
+react-youtube@^7.13.0:
   version "7.13.1"
   resolved "https://registry.yarnpkg.com/react-youtube/-/react-youtube-7.13.1.tgz#3b327599a687bf22e071468818522920b36bcb57"
   integrity sha512-b++TLHmHDpd0ZBS1wcbYabbuchU+W4jtx5A2MUQX0BINNKKsaIQX29sn/aLvZ9v5luwAoceia3VGtyz9blaB9w==
